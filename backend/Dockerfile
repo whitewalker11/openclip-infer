@@ -20,7 +20,14 @@ COPY . /app
 RUN pip install --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
-# Expose port
+# Install huggingface_hub for downloading checkpoints
+RUN pip install huggingface_hub
+
+# Download model checkpoints before running app
+COPY download_checkpoints.py /app/
+RUN python /app/download_checkpoints.py
+
+# Expose port 5000 for Flask app
 EXPOSE 5000
 
 # Start the Flask app
