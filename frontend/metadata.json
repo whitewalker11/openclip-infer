@@ -1,0 +1,5 @@
+{
+  "name": "Target Label Image Matcher",
+  "description": "An application to upload images, match them against user-defined target labels using a backend model, and manage labels for the model.",
+  "requestFramePermissions": []
+}
