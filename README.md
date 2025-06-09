@@ -6,7 +6,7 @@ A full-stack image classification application using a custom OpenCLIP model back
 ---
 
 
-![Demo](demo.gif)
+![Demo](output.gif)
 
 
 ## 🚀 Features
