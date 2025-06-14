@@ -1,5 +1,5 @@
 
-# OpenCLIP Image Classification
+# Dynamic Medical Image Classifier for Targeted Labeling
 
 A full-stack image classification application using a custom OpenCLIP model backend (Flask + PyTorch) and a React frontend served by Nginx. Supports dynamic label updates and image prediction via REST API.
 
