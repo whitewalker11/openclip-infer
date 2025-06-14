@@ -6,8 +6,7 @@ A full-stack image classification application using a custom OpenCLIP model back
 ---
 
 
-![Demo](output.gif)
-
+https://github.com/user-attachments/assets/2fa4c9a0-4cda-426e-922d-015cd95ee2d6
 
 ## 🚀 Features
 
@@ -19,6 +18,10 @@ A full-stack image classification application using a custom OpenCLIP model back
 - `docker-compose` setup to run frontend and backend together
 
 ---
+
+
+
+
 
 ## 🗂️ Project Structure
 
